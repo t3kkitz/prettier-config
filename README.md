@@ -19,3 +19,12 @@ $ yarn add --dev @t3kkitz/prettier-config
   "prettier": "@t3kkitz/prettier-config"
 }
 ```
+
+**Or extend config by `.prettierrc.js`**:
+
+```js
+module.exports = {
+  ...require("@t3kkitz/prettier-config"),
+  semi: false
+};
+```
